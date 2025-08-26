@@ -44,3 +44,20 @@ java.lang.Exception: Resource '/chap01/.gitignore' already exists.
 	at org.eclipse.egit.core.op.ConnectProviderOperation.execute(ConnectProviderOperation.java:115)
 	at org.eclipse.egit.ui.internal.sharing.SharingWizard$2.run(SharingWizard.java:158)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+
+!ENTRY org.eclipse.egit.core 4 0 2025-08-26 12:37:38.565
+!MESSAGE An exception occurred during push on URI https://github.com/gbswJavaClass2-2025/1213_hyunwoo: https://github.com/gbswJavaClass2-2025/1213_hyunwoo: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/gbswJavaClass2-2025/1213_hyunwoo: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:694)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:636)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:540)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:140)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1533)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:269)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2025-08-26 12:37:38.567
+!MESSAGE Can't connect to any repository: https://github.com/gbswJavaClass2-2025/1213_hyunwoo (https://github.com/gbswJavaClass2-2025/1213_hyunwoo: not authorized)
