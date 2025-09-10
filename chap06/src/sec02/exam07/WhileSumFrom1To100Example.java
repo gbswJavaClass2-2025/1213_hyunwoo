@@ -1,6 +1,6 @@
-package sec02.exam06;
+package sec02.exam07;
 
-public class StringConcatExample {
+public class WhileSumFrom1To100Example {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

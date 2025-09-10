@@ -1,6 +1,6 @@
-package sec02.exam03;
+package sec02.exam05;
 
-public class DenyLogicOperatorExample {
+public class ForMultiplicationTableExample {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
