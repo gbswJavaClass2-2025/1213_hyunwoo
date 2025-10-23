@@ -1,7 +1,5 @@
 package sec01.exam04;
 
-import sec01.exam03.RemoteControl;
-
 public class Audio implements RemoteControl {
     private int volume;
 
