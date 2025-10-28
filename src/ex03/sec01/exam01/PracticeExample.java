@@ -17,6 +17,7 @@ public class PracticeExample {
         System.out.println("[3. 오버로딩]");
         tiger.eat();
         tiger.eat("생고기");
+        tiger.eat("익힌고기");
         gold.eat();
         gold.eat("개껌");
         gold.eat(500);

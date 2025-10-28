@@ -5,8 +5,6 @@ public class Animal {
     public Animal(String species) {
         this.species = species;
     }
-    public Animal() {
-    }
     public void eat() {
         System.out.println(species + ": " + species + "이/가 일반적인 방식으로 먹이를 먹습니다.");
     }
